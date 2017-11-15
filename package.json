@@ -1,6 +1,6 @@
 {
   "name": "doxie-go",
-  "version": "1.0.0",
+  "version": "0.1.2",
   "description": "A framework for interacting with the Doxie Go Wifi scanner via HTTP/JSON API.",
   "main": "index.js",
   "scripts": {
@@ -16,12 +16,32 @@
     "http",
     "json",
     "api",
-    "scanner"
+    "scanner",
+    "ssdp"
   ],
-  "author": "Travis Sinnott <travis@notable.space>",
+  "author": {
+    "name": "Travis Sinnott",
+    "email": "travis@notable.space",
+    "url": "http://travissinnott.github.io/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/travissinnott/doxie-go/issues"
   },
-  "homepage": "https://github.com/travissinnott/doxie-go#readme"
+  "homepage": "https://github.com/travissinnott/doxie-go#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "fs-extra": "4.0.2",
+    "moment": "2.19.2",
+    "request": "2.83.0",
+    "request-promise-native": "1.0.5"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "4.0.1",
+    "nock": "9.1.0"
+  },
+  "engines": {
+    "node": ">=6.12.0"
+  }
 }

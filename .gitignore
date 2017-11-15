@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# SSDP samples
+ssdp_samples/
+
+# Copyrighted documentation
+*.pdf
